@@ -8,10 +8,10 @@ namespace UserRegistrationMSTest
     public class UnitTest1
     {
         [TestMethod]
-        [DataRow("Lokesh", "Lokesh")]
+        [DataRow("Vivek", "Vivek")]
         [DataRow("Lo", null)]
 
-        [DataRow("Sonawane", "Sonawane")]
+        [DataRow("Kumar", "Kumar")]
         [DataRow("S", null)]
         public void Name(string a, string expected)
         {
